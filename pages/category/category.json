@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "商品分类",
+  "navigationBarBackgroundColor": "#CCCCCC",
+  //下拉刷新"enablePullDownRefresh": true
+}

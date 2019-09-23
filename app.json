@@ -1,13 +1,29 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/category/category"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#C1CDC1",
+    "navigationBarTitleText": "页面配置",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "tubiao/1.1.png",
+      "selectedIconPath": "tubiao/1.2.png"
+    },
+    {
+      "pagePath": "pages/category/category",
+      "text": "商品分类",
+      "iconPath": "tubiao/1.3.png",
+      "selectedIconPath": "tubiao/1.4.png"
+    }
+    ]
+  }
 }

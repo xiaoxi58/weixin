@@ -5,9 +5,25 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTitleText": "第一课",
+    "navigationBarTextStyle": "white"
   },
-  "sitemapLocation": "sitemap.json"
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+       {
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "tubiao/1.2.png",
+      "selectedIconPath": "tubiao/1.1.png"
+        },
+        {
+          "pagePath": "pages/about/about",
+          "text": "我",
+          "iconPath": "tubiao/1.3.png",
+          "selectedIconPath": "tubiao/1.4.png"
+        }
+    ]
+  }
 }
